@@ -18,11 +18,11 @@ class App extends React.Component {
 				text: "MORTY$ Token Transactions Per Day Bitch"
 			},
       axisX:{
-        title: "transactions",
+        title: "date",
         gridThickness: 2
       },
       axisY: {
-          title: "date"
+          title: "transactions"
       },
 			data: [{
 				type: "area", //change type to bar, line, area, pie, etc
