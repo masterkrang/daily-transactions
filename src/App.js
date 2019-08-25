@@ -58,7 +58,7 @@ class App extends React.Component {
           let txs = d.count
           let day = d.day
           let date = new Date(day);
-          let dateString = `${date.getMonth()}/${date.getDate()}/${date.getYear()}`
+          //let dateString = `${date.getMonth()}/${date.getDate()}/${date.getYear()}`
           arr.push({x: date, y: txs})
       });
       console.log(arr)
